@@ -22,3 +22,22 @@ body{
 .result{
     font-size: 2rem;
 }
+
+.theme{
+    padding: 1rem 1.5rem;
+    margin-top: 1rem;
+    border-radius: 10px;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, .3);
+    transform: translateY(0px);
+    transition: all .2s ease;
+}
+.theme:active{
+    transform: translateY(2px);
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, .2);
+}
+.blue{
+    background-color: blue;
+}
